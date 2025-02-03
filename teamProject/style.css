@@ -108,9 +108,7 @@ body{
     /* border: 1px solid red; */
     width: min-content;
 }
-.card-container div img {
-    /* position: relative; */
-}
+
 
 .card-wrapper{
     display: flex;
@@ -127,12 +125,12 @@ body{
     z-index: 0
 }
 .card2{
-    margin-top: -150px;
+    margin-top: -120px;
     z-index: 1;
 }
 
 .card1{
-    margin-top: -150px;
+    margin-top: -120px;
     z-index: 2;
     border-radius: 0 0 50px, 50px;
 }
@@ -147,9 +145,7 @@ body{
 }
 
 
-.global-payments{
-    margin-top: 250px;
-}
+
 
 /* .paymants-wrapper{
     margin-top: 250px;
@@ -485,7 +481,6 @@ a {
     height: 420px;
     background-color: white;
     border-radius: 10px;
-    margin-top: 300px;
 }
 
 .paymants-month > div:hover{
@@ -493,147 +488,31 @@ a {
     border-radius: 15px;
 }
 
-
-.container {
-    width: 331px;
-    height: 516.74px;
-    margin-top: 230px;
-    background: rgba(255, 255, 255, 1);
-    padding: 20px;
-    border: 1.19px solid rgba(196, 204, 216, 1);
-    border-radius: 10px;
-    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
-}
-
-/* .transaction-wrapper{
-    position: relative;
-} */
-
-.transaction {
-    width: 290.52px;
-    height: 73.82px;
-    padding-left: 20.24px;
-    padding-top: 22.62px    ;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    position: relative;
-    z-index: 1;
-}
-
-.back-box{
-    width: 261.47px;
-    height: 66.44px;
-    color: rgba(255, 255, 255, 1);
-    border-radius: 9.53px;
-    padding: 11.61px 17.15px 10.72px;
-    box-shadow: 0px 3.57px 8.33px -3.57px rgba(0, 0, 0, 0.3),
-                 0px 7.14px 14.29px -2.38px rgba(50, 50, 93, 0.25);
-    position: absolute;
-    top: 7px;
-    /* left: 10px; */
-    z-index: 3;
-}
-
-.transaction-info{
-    display: flex;
-    width: 149.53px;
-    height: 14.29px;
-    gap: 9.53px;
-}
-
-.transaction-info > *:first-child{
-    width: 42px;
-    height: 15px;
-    font-family: inter;
-    font-weight: 400;
-    font-size: 13.84px;
-    line-height: 14.29px;
-    letter-spacing: 0.23px;
-    color: rgba(63, 75, 102, 1);
-}
-
-.transaction-info > *:last-child{
-    width: 97px;
-    height: 15px;
-    font-family: inter;
-    font-weight: 400;
-    font-size: 12.95px;
-    line-height: 14.29px;
-    letter-spacing: 0.23px;
-    color: rgba(114, 127, 150, 1);
+.no-margin{
+    margin-top: 0;
 }
 
 
 
-.status {
-    width: 69.06px;
-    height: 23.81px;
-    background: rgba(21, 190, 83, 0.3);
-    padding: 4.76px 0 0 9.62px;
-    border-radius: 4.76px;
-    font-family: inter;
-    font-weight: 400;
-    font-size: 8.93px;
-    line-height: 14.29px;
-    letter-spacing: 0.23px;
-    color: rgba(10, 37, 64, 1);
-    margin-top: 4.76px;      
-}
-
-.amount{
-    width: 65px;
-    height: 15px;
-    font-family: inter;
-    font-weight: 400;
-    font-size: 15.76px;
-    line-height: 14.29px;
-    text-align-last: right;
-    margin-left: 176px;
-    margin-top: -30px;
-}
 
 
-.buyers, .platform, .sellers {
-    text-align: center;
-    padding: 8px 15px;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.buyers {
-    background: #007bff;
-    color: white;
-}
-
-.platform {
-    background: #5bc0de;
-    color: white;
-}
 
 
-.sellers {
-    border: 2px dashed #007bff;
-    color: #007bff;
-}
 
-.arrow {
-    text-align: center;
-    color: gray;
-    margin: 5px 0;
-}
 
-.amount-box {
-    text-align: center;
-    background: white;
-    padding: 5px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    font-size: 14px;
-    font-weight: bold;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

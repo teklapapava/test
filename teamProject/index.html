@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="transaction.css">
+    <link rel="stylesheet" href="form.style.css">
     <title>Document</title>
 </head>
 
@@ -33,325 +35,406 @@
         </div>
 
 
-        <div class="payments-wrapper"> 
-        
-             <div class="global-payments">
+        <div class="payments-wrapper">
+
+            <div class="global-payments">
                 <div class="vector-wraper">
                     <img src="./media/Vector.png" alt="vactor">
                     <h2>Payments</h2>
-            </div>
-            <div class="optimize-payments">
-                <h1>Accept and optimize
-                    payments, globally</h1>
-            </div>
-            <div class="rates">
-                <h3>Increase authorization rates, optimize your checkout
-                    conversion, and offer local payment methods in every
-                    market.</h3>
-            </div>
-            <!-- <div class="paymants-start"> -->
-                <button class="Start-with-Payments">Start with Payments  </button>
+                </div>
+                <div class="optimize-payments">
+                    <h1>Accept and optimize
+                        payments, globally</h1>
+                </div>
+                <div class="rates">
+                    <h3>Increase authorization rates, optimize your checkout
+                        conversion, and offer local payment methods in every
+                        market.</h3>
+                </div>
+                <!-- <div class="paymants-start"> -->
+                <button class="Start-with-Payments">Start with Payments </button>
                 <!-- <img src="./media/vector2.png" alt="vector2"> -->
-            <!-- </div> -->
-            
+                <!-- </div> -->
+
                 <div class="see-also-class">
-                     <h3>See also</h3>
-                 </div>
-
-            <div class="links">
-                 <div class="link-1">
-                    <a href="">Tax</a>
-                    <p>for automating sales tax and VAT</p>
-                </div>
-
-                <div class="link-2">
-                    <a href="">Radar</a>
-                    <p>for fraud prevention and management</p>
-                </div>
-                <div class="link-3">
-                    <a href="">Terminal</a>
-                    <p>for custom in-person payments</p>
-                </div>
-
-            </div>
-            </div>
-        
-            <!-- <div></div> აქ გააკეთე მეორე დივები -->
-
-
-        </div>
-
-
-
-        
-        <div class="Billing-wrapper"> 
-        
-            <div class="global-payments">
-               <div class="vector-wraper">
-                   <img src="./media/vector3.png" alt="vactor">
-                   <h2>Billing</h2>
-           </div>
-           <div class="optimize-payments">
-               <h1>Capture recurring revenue</h1>
-           </div>
-           <div class="rates">
-               <h3>Support recurring business models, minimize churn,
-                and automate finance operations.</h3>
-           </div>
-           <!-- <div class="paymants-start"> -->
-                <button class="Start-with-Payments">Start with Billing</button>    
-               <!-- <img src="./media/vector2.png" alt="vector2"> -->
-           <!-- </div> -->
-           
-               <div class="see-also-class">
                     <h3>See also</h3>
                 </div>
 
-           <div class="links">
-                <div class="link-1">
-                   <a href="">Invoicing</a>
-                   <p>for invoice creation, collection, and tracking</p>
-               </div>
+                <div class="links">
+                    <div class="link-1">
+                        <a href="">Tax</a>
+                        <p>for automating sales tax and VAT</p>
+                    </div>
 
-               <div class="link-2">
-                   <a href="">Revenue Recognition</a>
-                   <p>for streamlined accrual accounting</p>
-               </div>
-               <div class="link-3">
-                   <a href="">Sigma</a>
-                   <p>for custom revenue reports</p>
-               </div>
+                    <div class="link-2">
+                        <a href="">Radar</a>
+                        <p>for fraud prevention and management</p>
+                    </div>
+                    <div class="link-3">
+                        <a href="">Terminal</a>
+                        <p>for custom in-person payments</p>
+                    </div>
 
+                </div>
             </div>
-           </div>
 
+            <div class="mobile-phone">
+                <div class="phone-screen">
+                    <form action="payment-form">
+                        <div class="top-part">
+                            <img src="images/abstraction-magazine.svg" alt="Abstraction Magazine"
+                                class="abstraction-magazine">
+                            <h4>Abstraction Magazine</h4>
+                            <p>$19 per month</p>
+                            <button class="apple-pay">
+                                <img src="images/apple-pay.svg" alt="apple-pay">
+                            </button>
+                            <p>Or pay with card</p>
+                        </div>
 
-    <div class="quantum-container">
-        <div class="quantum-wrapper">
-            <div class="quantum-main">
-                <div class="quantum-icon">
-                    <img src="./media/Quantum-icon.png" alt="Quantum">
-                    <p>Quantum</p>
+                        <div class="bottom-part">
+                            <label for="email-input">Email</label>
+                            <input type="text" class="email-input">
+
+                            <label for="card-input">Card information</label>
+                            <input type="text" placeholder="Number" class="card-numbers-input">
+                            <div class="years-cvc-wrapper">
+                                <input type="text" placeholder="MM / YY">
+                                <input type="text" placeholder="CVC">
+                            </div>
+
+                            <label for="location-input">Country or region</label>
+                            <div class="zip-input-container">
+                                <select name="" class="location-input">
+                                    <option value="GEO"></option>
+                                    <option value="UK">United Kingdom</option>
+                                    <option value="US" selected>United States</option>
+                                    <option value="CA">Canada</option>
+                                    <option value="AU">Australia</option>
+                                    <option value="IN">India</option>
+                                    <option value="FR">France</option>
+                                    <option value="DE">Germany</option>
+                                    <option value="IT">Italy</option>
+                                    <option value="JP">Japan</option>
+                                </select>
+                                <input type="text" placeholder="ZIP">
+                            </div>
+
+                            <button class="apple-pay">
+                                <img src="images/apple-pay.svg" alt="apple-pay">
+                            </button>
+
+                        </div>
+                    </form>
                 </div>
-                <div class="menu-items">
-                    <p>Products</p>
-                    <p>Pricing</p>
-                    <p>Contact</p>
-                </div>
-    
             </div>
-            <div class="paymants-month">
-                <div class="pricing-card">
-                    <div class="standard">
-                        <p>Standard</p>
+
+
+
+        </div>
+
+
+
+
+        <div class="Billing-wrapper">
+
+            <div class="global-payments">
+                <div class="vector-wraper">
+                    <img src="./media/vector3.png" alt="vactor">
+                    <h2>Billing</h2>
+                </div>
+                <div class="optimize-payments">
+                    <h1>Capture recurring revenue</h1>
+                </div>
+                <div class="rates">
+                    <h3>Support recurring business models, minimize churn,
+                        and automate finance operations.</h3>
+                </div>
+                <!-- <div class="paymants-start"> -->
+                <button class="Start-with-Payments">Start with Billing</button>
+                <!-- <img src="./media/vector2.png" alt="vector2"> -->
+                <!-- </div> -->
+
+                <div class="see-also-class">
+                    <h3>See also</h3>
+                </div>
+
+                <div class="links">
+                    <div class="link-1">
+                        <a href="">Invoicing</a>
+                        <p>for invoice creation, collection, and tracking</p>
                     </div>
-                    <div class="up-to-5-users">
-                        <p>Up to 5 users</p>
+
+                    <div class="link-2">
+                        <a href="">Revenue Recognition</a>
+                        <p>for streamlined accrual accounting</p>
                     </div>
-    
-                    <div class="price-month">
-                        <h3>$49</h3>
-                        <p>/month</p>
+                    <div class="link-3">
+                        <a href="">Sigma</a>
+                        <p>for custom revenue reports</p>
                     </div>
-                    <button>Subscribe</button>
-                    <div class="this-includes">
-                        <p>This includes:</p>
-    
-                        <span>12 months historical data</span>
-                        <span>4 hr data refresh</span>
-                        <span>500+ third party integrations</span>
+
+                </div>
+            </div>
+
+
+            <div class="quantum-container">
+                <div class="quantum-wrapper">
+                    <div class="quantum-main">
+                        <div class="quantum-icon">
+                            <img src="./media/Quantum-icon.png" alt="Quantum">
+                            <p>Quantum</p>
+                        </div>
+                        <div class="menu-items">
+                            <p>Products</p>
+                            <p>Pricing</p>
+                            <p>Contact</p>
+                        </div>
+
+                    </div>
+                    <div class="paymants-month">
+                        <div class="pricing-card">
+                            <div class="standard">
+                                <p>Standard</p>
+                            </div>
+                            <div class="up-to-5-users">
+                                <p>Up to 5 users</p>
+                            </div>
+
+                            <div class="price-month">
+                                <h3>$49</h3>
+                                <p>/month</p>
+                            </div>
+                            <button>Subscribe</button>
+                            <div class="this-includes">
+                                <p>This includes:</p>
+
+                                <span>12 months historical data</span>
+                                <span>4 hr data refresh</span>
+                                <span>500+ third party integrations</span>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="pricing-card">
+                            <div class="standard">
+                                <p>Professional </p>
+                            </div>
+                            <div class="up-to-5-users">
+                                <p>Up to 25 users</p>
+                            </div>
+
+                            <div class="price-month">
+                                <h3>$149</h3>
+                                <p>/month</p>
+                            </div>
+                            <button>Subscribe</button>
+                            <div class="this-includes">
+                                <p>This includes:</p>
+
+                                <span>24 months historical data</span>
+                                <span>1 hr data refresh</span>
+                                <span>1,000+ third party integrations</span>
+                                <span>Simple reporting</span>
+
+                            </div>
+                        </div>
+
+                        <div class="pricing-card">
+                            <div class="standard">
+                                <p>Enterprise</p>
+                            </div>
+                            <div class="up-to-5-users">
+                                <p>Unlimited users</p>
+                            </div>
+
+                            <div class="price-month">
+                                <h3>$299</h3>
+                                <p>/month</p>
+                            </div>
+                            <button>Subscribe</button>
+                            <div class="this-includes">
+                                <p>This includes:</p>
+
+                                <span>Unlimited historical data</span>
+                                <span>15 min data refresh</span>
+                                <span>2,000+ third party integrations</span>
+                                <span>Advanced reporting</span>
+                                <span>Priority support</span>
+
+                            </div>
+                        </div>
+
+
+
                     </div>
                 </div>
-    
-    
-    
-                
-                <div class="pricing-card">
-                    <div class="standard">
-                        <p>Professional </p>
+            </div>
+
+
+
+
+        </div>
+
+        </div>
+
+
+        <div class="connect-wrapper">
+
+            <div class="global-payments">
+                <div class="vector-wraper">
+                    <img src="./media/vector4.png" alt="vactor">
+                    <h2>Connect</h2>
+                </div>
+                <div class="optimize-payments">
+                    <h1>Set up multiparty
+                        payments and payouts</h1>
+                </div>
+                <div class="rates">
+                    <h3>Integrate payments into your platform or marketplace
+                        for end-to-end payments experiences.</h3>
+                </div>
+                <!-- <div class="paymants-start"> -->
+                <button class="Start-with-Payments">Start with Connect</button>
+                <!-- <img src="./media/vector2.png" alt="vector2"> -->
+                <!-- </div> -->
+
+                <div class="see-also-class">
+                    <h3>See also</h3>
+                </div>
+
+                <div class="links">
+                    <div class="link-1">
+                        <a href="">Terminal</a>
+                        <p>for custom in-person payments</p>
                     </div>
-                    <div class="up-to-5-users">
-                        <p>Up to 25 users</p>
+
+                    <div class="link-2">
+                        <a href="">Instant</a>
+                        <p>Payouts for fast payments to users</p>
                     </div>
-    
-                    <div class="price-month">
-                        <h3>$149</h3>
-                        <p>/month</p>
+                    <div class="link-3">
+                        <a href="">Payment</a>
+                        <p>Elements for customizable UIs</p>
                     </div>
-                    <button>Subscribe</button>
-                    <div class="this-includes">
-                        <p>This includes:</p>
-    
-                        <span>24 months historical data</span>
-                        <span>1 hr data refresh</span>
-                        <span>1,000+ third party integrations</span>
-                        <span>Simple reporting</span>
-    
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="transaction-wrapper">
+                    <div class="transaction"></div>
+                    <div class="transaction2">
+                        <div class="processing">
+                            <p>#9124 <span>Jacques Muller</span></p>
+                            <p>Processing</p>
+                        </div>
+                        <div class="cost">
+                            <p>$200.00</p>
+                        </div>
                     </div>
                 </div>
-    
-                <div class="pricing-card">
-                    <div class="standard">
-                        <p>Enterprise</p>
+                <div class="sequence">
+                    <div class="par-div">
+                        <p class="buyers">Buyers</p>
                     </div>
-                    <div class="up-to-5-users">
-                        <p>Unlimited users</p>
+                    <div>
+                        <div class="tre"></div>
+                        <div class="tre"></div>
+                        <div class="tre"></div>
+                        <div class="tre"></div>
+                        <div class="tre"></div>
+                        <div class="tre"></div>
+                        <div class="tre"></div>
+                        <div class="tre"></div>
                     </div>
-    
-                    <div class="price-month">
-                        <h3>$299</h3>
-                        <p>/month</p>
+                    <div class="paragraph-wrapper">
+                        <div class="par-div">
+                            <p class="platform-p">Platfrom</p>
+                        </div>
+                        <p class="price">$4.50</p>
                     </div>
-                    <button>Subscribe</button>
-                    <div class="this-includes">
-                        <p>This includes:</p>
-    
-                        <span>Unlimited historical data</span>
-                        <span>15 min data refresh</span>
-                        <span>2,000+ third party integrations</span>
-                        <span>Advanced reporting</span>
-                        <span>Priority support</span>
-    
+                    <div>
+                        <div class="tre"></div>
+                        <div class="tre"></div>
+                        <div class="tre"></div>
+                    </div>
+                    <p class="price">$145.50</p>
+                    <div>
+                        <div class="tre"></div>
+                        <div class="tre"></div>
+                        <div class="tre"></div>
+                    </div>
+                    <div class="par-div">
+                        <p class="sellers">Sellers or service providers</p>
                     </div>
                 </div>
-    
-    
-    
+                <div class="ellipse"></div>
             </div>
         </div>
-    </div>
-        
+
+
                 
-
-
-    </div>
-
-       </div>
-
-
-<div class="connect-wrapper"> 
-        
-        <div class="global-payments">
-           <div class="vector-wraper">
-               <img src="./media/vector4.png" alt="vactor">
-               <h2>Connect</h2>
-       </div>
-       <div class="optimize-payments">
-           <h1>Set up multiparty
-            payments and payouts</h1>
-       </div>
-       <div class="rates">
-           <h3>Integrate payments into your platform or marketplace
-            for end-to-end payments experiences.</h3>
-       </div>
-       <!-- <div class="paymants-start"> -->
-           <button class="Start-with-Payments">Start with Connect</button>
-           <!-- <img src="./media/vector2.png" alt="vector2"> -->
-       <!-- </div> -->
        
-           <div class="see-also-class">
-                <h3>See also</h3>
+
+
+        <div class="Issuing-wrapper">
+
+            <div class="global-payments">
+                <div class="vector-wraper">
+                    <img src="./media/vector5.png" alt="vector">
+                    <h2>Issuing</h2>
+                </div>
+                <div class="optimize-payments">
+                    <h1>Build a fintech offering with
+                        banking-as-a-service</h1>
+                </div>
+                <div class="rates">
+                    <h3>Launch, manage, and scale a commercial card program
+                        without any setup fees.</h3>
+                </div>
+                <!-- <div class="paymants-start"> -->
+                <button class="Start-with-Payments">Start with Issuing</button>
+                <!-- <img src="./media/vector2.png" alt="vector2"> -->
+                <!-- </div> -->
+
+                <div class="see-also-class">
+                    <h4>See also</h4>
+                </div>
+
+                <div class="links">
+                    <div class="link-1">
+                        <a href="">Treasury</a>
+                        <p>for financial accounts</p>
+                    </div>
+
+                    <div class="link-2">
+                        <a href="">Capital</a>
+                        <p>for offering fast, flexible financing</p>
+                    </div>
+                    <div class="link-3">
+                        <a href="">Connect</a>
+                        <p>for powering platform payments</p>
+                    </div>
+
+                </div>
             </div>
-
-       <div class="links">
-            <div class="link-1">
-               <a href="">Terminal</a>
-               <p>for custom in-person payments</p>
-           </div>
-
-           <div class="link-2">
-               <a href="">Instant</a>
-               <p>Payouts for fast payments to users</p>
-           </div>
-           <div class="link-3">
-               <a href="">Payment</a>
-               <p>Elements for customizable UIs</p>
-           </div>
-
-       </div>
-       </div>
-   
-         <div class="container">
-            
-                
-        
-                <div class="transaction">
-            <div class="transaction-info">
-                <span>#9124</span> 
-                <span>Jacques Muller</span>
+            <div class="card-container no-margin">
+                <div class="card-wrapper">
+                    <img src="./media/mesame.png" alt="" class="card3">
+                    <img src="./media/meore.png" alt="" class="card2">
+                    <img src="./media/pirveli.png" alt="" class="card1">
+                </div>
             </div>
-            <div class="status">Processing</div>
-            <div class="amount"><span>$200.00</span></div>
-            <div class="back-box"></div>
-        </div>
-        
-        <div class="buyers">Buyers</div>
-        <div class="arrow">▼▼▼</div>
-        <div class="platform">Platform</div>
-        <div class="amount-box">$4.50</div>
-        <div class="arrow">▼▼▼</div>
-        <div class="amount-box">$145.50</div>
-        <div class="arrow">▼▼▼</div>
-        <div class="sellers">Sellers or service providers</div>
-    </div>
-</div>
-
-
-   <div class="Issuing-wrapper"> 
-        
-    <div class="global-payments">
-       <div class="vector-wraper">
-           <img src="./media/vector5.png" alt="vector">
-           <h2>Issuing</h2>
-   </div>
-   <div class="optimize-payments">
-       <h1>Build a fintech offering with
-        banking-as-a-service</h1>
-   </div>
-   <div class="rates">
-       <h3>Launch, manage, and scale a commercial card program
-        without any setup fees.</h3>
-   </div>
-   <!-- <div class="paymants-start"> -->
-       <button class="Start-with-Payments">Start with Issuing</button>
-       <!-- <img src="./media/vector2.png" alt="vector2"> -->
-   <!-- </div> -->
-   
-       <div class="see-also-class">
-            <h4>See also</h4>
         </div>
 
-   <div class="links">
-        <div class="link-1">
-           <a href="">Treasury</a>
-           <p>for financial accounts</p>
-       </div>
-
-       <div class="link-2">
-           <a href="">Capital</a>
-           <p>for offering fast, flexible financing</p>
-       </div>
-       <div class="link-3">
-           <a href="">Connect</a>
-           <p>for powering platform payments</p>
-       </div>
-
-   </div>
-   </div>
-   <div class="card-container">
-    <div class="card-wrapper">
-        <img src="./media/mesame.png" alt="" class="card3">
-        <img src="./media/meore.png" alt="" class="card2">
-        <img src="./media/pirveli.png" alt="" class="card1">
-    </div>
-</div>
-</div>
 
 
 
 
 
-        
 
 
     </section>
