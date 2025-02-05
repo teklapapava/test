@@ -19,8 +19,8 @@
 
 body{
     background-color:  #80808021;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     margin-top: 50px;
 }
 
@@ -31,6 +31,7 @@ body{
     flex-direction: column;
     align-items: center; */
     margin-top: 70px;
+    margin: auto;
 }
 
 .financial-container{
@@ -58,6 +59,7 @@ body{
     font-size: 16.73px;
     line-height: 28px;
     color: rgba(99, 91, 255, 1);
+    margin-bottom: 32px;
 }
 
 .main-heading{
@@ -68,6 +70,7 @@ body{
     font-size: 51.63px;
     line-height: 68px;
     color: rgba(10, 37, 64, 1);
+    margin-bottom: 32px;
 }
 
 .description{
@@ -160,6 +163,7 @@ body{
     font-weight: 400;
     /* margin: 0 auto; */
     /* padding-left: 470px; */
+    margin-bottom: 32px; 
 }
 
 .optimize-payments{
@@ -235,7 +239,7 @@ body{
     margin-top: 10px;
 }
 
-a {
+.links a {
     text-decoration: none;
     color:rgba(99, 91, 255, 1) ;
 }

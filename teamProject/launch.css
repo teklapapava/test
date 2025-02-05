@@ -1,0 +1,129 @@
+.launch-with-ease{
+    /* width: 1080px; */
+    padding-left: 420px;
+    padding-right: 420px;
+    padding-top: 287px;
+    padding-bottom: 128px;
+}
+
+
+
+
+.launch-with-ease-wrapper{
+    /* width: 1080px; */
+    height: 228PX;
+    margin-top: 284px;
+}
+
+
+.launch-title > p:first-child{
+    width: 682px;
+    height: 28px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16.88px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: rgba(99, 91, 255, 1);
+    margin-bottom: 24px;
+}
+
+
+.launch-title h4{
+    width: 621px;
+    height: 96px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 35.77px;
+    line-height: 48px;
+    letter-spacing: -0.2px;
+    color: rgba(10, 37, 64, 1);
+    margin-bottom: 24px;
+}
+
+.launch-title > p:last-child{
+    width: 682px;
+    height: 56px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16.45px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: rgba(66, 84, 102, 1);
+    margin-bottom: 64px;
+}
+
+.main-div{
+    display: flex;
+    gap: 24px;
+    width: 1080px;
+    height: 528.41px;
+    background-color: #ffff;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.integrated-platform{
+    width: 338.66px;
+    height: 528.41px;
+    border-radius: 8px;
+    padding-right: 16px;
+    /* background-color: red; */
+}
+
+.for-icons{
+    width: 330.66;
+    height: 220.44px;
+    border-radius: 4px;
+    background-image: linear-gradient(rgba(190, 201, 220, 0), rgba(190, 201, 220, 0.4));
+    margin-bottom: 23.49px;
+}
+
+.bottom-div{
+    width: 338.66px;
+    height: 247.97px;
+}
+
+.bottom-div h4{
+    width: 290.66px;
+    height: 72px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 24.17px;
+    line-height: 36px;
+    color: rgba(10, 37, 64, 1);
+    margin-bottom: 12.47px;
+}
+
+.bottom-div p{
+    width: 290.66px;
+    height: 112px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16.17px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: rgba(66, 84, 102, 1);
+    margin-bottom: 28.01px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
