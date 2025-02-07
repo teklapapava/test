@@ -1,7 +1,9 @@
 .payments-wrapper{
     display: flex;
     margin-top: 250px;
-    
+    width: clamp(500px, 160vh, 1080px);
+    gap: 120px;
+    justify-content: space-between;
 }
 
 
@@ -47,7 +49,7 @@
 .pay-containter p, .top-part h4{
     /* width: 73px; */
     font-family: inter;
-    font-size: 10px;
+    font-size: .6rem;
     line-height: 12px;
     font-weight: 400;
     margin-top: 5px;
@@ -66,7 +68,7 @@
     color: white;
     font-family: inter;
     font-weight: 400;
-    font-size: 12px;
+    font-size: .8rem;
     width: 100%;
     height: 29px;
     border: none;
@@ -85,7 +87,7 @@
     color: black;
     font-family: inter;
     font-weight: 400;
-    font-size: 12px;
+    font-size: .8rem;
     width: 100%;
     height: 29px;
     border: none;
@@ -125,7 +127,7 @@
     height: 10.98px;
     font-family: inter;
     font-weight: 400;
-    font-size: 11px;
+    font-size: .8rem;
     /* margin-left: 100.7px; */
     margin-bottom: 14px;
     color: rgba(114, 127, 150, 1);
@@ -168,7 +170,7 @@
 
 .bottom-part label {
     color: #425466;
-    font-size: 10px;
+    font-size: .6rem;
     font-weight: 500;
     line-height: 12px;
 }
@@ -209,7 +211,7 @@
     width: 100%;
     height: 24px;
     padding: 0 4px;
-    font-size: 10px;
+    font-size: .6rem;
     font-weight: 500;
     line-height: 24px;
     border: none;

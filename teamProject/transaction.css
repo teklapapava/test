@@ -1,6 +1,6 @@
 .container {
     width: 331px;
-    height: 516.74px;
+    /* height: 516.74px; */
     background: rgba(255, 255, 255, 1);
     padding: 20px;
     border: 1.19px solid rgba(196, 204, 216, 1);
@@ -57,7 +57,7 @@
     width: 70px;
     padding: 5px 10px;
     border-radius: 4px;
-    font-size: 8px;
+    font-size: .5rem;
     font-weight: 500;
     background-color: #B9EBCB;
 }
@@ -81,7 +81,7 @@
     width: 70px;
     padding: 5px 10px;
     border-radius: 4px;
-    font-size: 8px;
+    font-size: .5rem;
     font-weight: 500;
     background-color: #B9EBCB;
 }
@@ -94,7 +94,7 @@
     align-items: center;
     gap: 5px;
     top: 120px;
-    width: 100%;
+    /* width: 100%; */
     z-index: 2;
     /* background-color: red; */
 }
@@ -113,7 +113,7 @@
 }
 
 .sequence p {
-    font-size: 12px;
+    font-size: .8rem;
     margin: 2px;
     padding: 8px 26px;
     border-radius: 16px;
@@ -135,7 +135,7 @@
     0px 7.14px 14.29px -2.38px rgba(50, 50, 93, 0.25);
     font-family: inter;
     font-weight: 400;
-    font-size: 13.62px;
+    font-size: .8rem;
     line-height: 17.86px;
     letter-spacing: 0.26px;
     text-align: center;
