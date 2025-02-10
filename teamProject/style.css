@@ -26,101 +26,83 @@ body{
 
 
 #financial-products{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 1080px;
+    /* display: flex;
     flex-direction: column;
+    align-items: center; */
     margin-top: 70px;
+    margin: auto;
 }
 
 .financial-container{
-    width: clamp(500px, 80%, 1080px);
     /* width: 100%;
     max-width: 1080px; */
+    margin: 0 auto;
     /* margin: auto; */
     display: flex;
-    gap: 120px;
     /* width: 540px; */
     /* height: 504px; */
     /* margin-top: 70px; */
-    justify-content: space-between;
+    
 }
-
-@media (max-width: 1080px) {
-    #financial-products div{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 32px;
-    }
-    .built-wrapper-top .main-caption:nth-child(2) {
-        margin-top: 0;
-    }
-    .built-wrapper-bottom .main-caption:nth-child(2) {
-        transform: translateY(0);
-    }
-}
-
 .info-panel{
-    width: clamp(200px, 100vh, 500px);
-    margin-bottom: 90px;
+    width: 50%;
+
 }
 
 
 .subheading{
-    /* width: 460px; */
-    /* height: 28px; */
+    width: 460px;
+    height: 28px;
     font-family: inter;
     font-weight: 400;
     font-size: 16.73px;
     line-height: 28px;
     color: rgba(99, 91, 255, 1);
     margin-bottom: 32px;
-    padding-left: 16px;
 }
 
 .main-heading{
-    /* width: 460px; */
-    /* height: 272px; */
+    width: 460px;
+    height: 272px;
     font-family: inter;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 51.63px;
     line-height: 68px;
     color: rgba(10, 37, 64, 1);
     margin-bottom: 32px;
-    padding-left: 16px;
 }
 
 .description{
-    /* width: 460px; */
-    /* height: 168px; */
+    width: 460px;
+    height: 168px;
     font-family: inter;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 17.58px;
     line-height: 28px;
     color: rgba(66, 84, 102, 1);
-    padding-left: 16px;
 }
 
 #card-container{
-    /* display: flex; */
+    display: flex;
     /* flex-direction: column; */
-    /* justify-content: space-between; */
+    justify-content: center;
     /* align-items: flex-start; */
-    /* width: 50%; */
-    /* gap: 12px; */
+    width: 50%;
     /* border: 1px solid red; */
     margin-top: 90px;
+
 }
 
 .card-container{
-    /* display: flex; */
+    display: flex;
     /* flex-direction: column; */
-    /* justify-content: center; */
+    justify-content: center;
     /* align-items: flex-start; */
-    /* width: 50%; */
+    width: 50%;
     /* border: 1px solid red; */
     margin-top: 300px;
+  
 }
 
 
@@ -132,10 +114,10 @@ body{
 
 
 .card-wrapper{
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    /* width: 333px; */
+    width: 333px;
     height: 349px;
     /* background-color: red; */
     justify-content: center;
@@ -156,8 +138,13 @@ body{
     border-radius: 0 0 50px, 50px;
 }
 
-.card2:hover, .card3:hover{
+.card2:hover{
     z-index: 3;
+}
+
+.card3:hover{
+    z-index: 3;
+    /* display: none; */
 }
 
 
@@ -170,21 +157,21 @@ body{
 .vector-wraper{
     display: flex;
     gap: 20px;
-    /* width: 730px; */
-    /* height: 28px; */
+    width: 730px;
+    height: 28px;
     font-family: inter;
     font-weight: 400;
     /* margin: 0 auto; */
     /* padding-left: 470px; */
-    margin-bottom: 32px;
+    margin-bottom: 32px; 
 }
 
 .optimize-payments{
-    /* width: 700px; */
-    /* height: 96px; */
+    width: 700px;
+    height: 96px;
     font-family: inter;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 35.77px;
     line-height: 48px;
     letter-spacing: -0.2px;
     color: rgba(10, 37, 64, 1);
@@ -193,11 +180,11 @@ body{
 }
 
 .rates{
-    /* width: 455px; */
-    /* height: 84px; */
+    width: 455px;
+    height: 84px;
     font-family: inter;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 16.59px;
     line-height: 28px;
     letter-spacing: 0.2px;
     /* padding-left: 470px; */
@@ -210,8 +197,8 @@ body{
     justify-content: center;
     align-items: center; */
     color: white;
-    /* width: 183.7px; */
-    /* height: 32px; */
+    width: 183.7px;
+    height: 32px;
     /* border: 1px solid red; */
     border-radius: 16.5px;
     background-color: rgba(99, 91, 255, 1);
@@ -221,7 +208,7 @@ body{
     font-family: inter;
     font-weight: 400;
     position: relative;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
 }
 
 .Start-with-Payments::after{
@@ -239,7 +226,7 @@ body{
     height: 24px; */
     font-family: inter;
     font-weight: bold;
-    font-size: .9rem;
+    font-size: 14.18px;
     line-height: 24px;
     letter-spacing: -0.2px;
     color: rgba(10, 37, 64, 1);
@@ -250,14 +237,13 @@ body{
     font-family: inter;
     font-weight: 400;
     margin-top: 10px;
-    margin-right: 5px;
 }
 
 .links a {
     text-decoration: none;
     color:rgba(99, 91, 255, 1) ;
 }
-/* .link-1{
+.link-1{
     display: flex;
     gap: 8px;
     margin-top: 5px;
@@ -273,40 +259,30 @@ body{
     display: flex;
     gap: 8px;
     margin-top: 5px;
-} */
+}
 
 .Billing-wrapper{
     margin-top: 250px;
     display: flex;
-    gap: 120px;
-    width: clamp(500px, 80%, 1080px);
-    justify-content: space-between;
+
 }
 
 .connect-wrapper{
     margin-top: 250px;
     display: flex;
-    gap: 120px;
-    justify-content: space-between;
-    width: clamp(500px, 80%, 1080px);
 }
 
 .Issuing-wrapper{
     display: flex;
     margin-top: 250px;
-    gap: 120px;
-    width: clamp(500px, 80%, 1080px);
-    justify-content: space-between;
 }
 
 .quantum-wrapper{
-    /* width: 438px; */
-    /* height: 346px; */
+    width: 438px;
+    height: 346px;
     /* background-color: rgba(231, 236, 241, 1);
     border-bottom: 0.81px; */
-    /* border: 1px solid red; */
-    background-color: white;
-    padding: 16px;
+    /* border: 1px solid red */
     font-family: inter;
 }
 
@@ -315,11 +291,11 @@ body{
     display: flex;
     justify-content: space-between;
     /* margin-top: 300px; */
-    /* width: 438px; */
-    /* height: 42.99px; */
+    width: 438px;
+    height: 42.99px;
     padding-top: 0.81px;
     padding-right: 22.71px;
-    padding-bottom: 30.81px;
+    padding-bottom: 0.81px;
     padding-left: 0.71px;
     border-bottom:1px solid grey;
 }
@@ -350,7 +326,7 @@ body{
 .paymants-month{
     display: flex;
     /* width: 438px; */
-    /* height: 302.54px; */
+    height: 302.54px;
     padding-top: 9.73px;
     padding-right: 7.71px;
     padding-bottom: 12.17px;
@@ -359,8 +335,8 @@ body{
 }
 
 .pricing-card{
-    /* width: 135.46px; */
-    /* height: 350px; */
+    width: 135.46px;
+    height: 350px;
     padding-top: 17.84px;
     padding-right: 13.79px;
     padding-left: 13.79px;
@@ -368,20 +344,20 @@ body{
 }
 
 .standard{
-    /* width: 107.88px; */
-    /* height: 18px; */
+    width: 107.88px;
+    height: 18px;
     font-family: inter;
-    /* font-size: 400; */
+    font-size: 400;
     line-height: 17.03px;
     color: rgba(63, 75, 102, 1);
 }
 
 .up-to-5-users{
-    /* width: 107.88px; */
-    /* height: 13px; */
+    width: 107.88px;
+    height: 13px;
     font-family: inter;
     font-weight: 400;
-    font-size: .5rem;
+    font-size: 8.23px;
     line-height: 12.98px;
     columns: rgba(63, 75, 102, 1);
     margin-top: 20px;
@@ -389,38 +365,38 @@ body{
 
 .price-month{
     display: flex;
-    /* width: 107.88px; */
-    /* height: 32.44px; */
+    width: 107.88px;
+    height: 32.44px;
     margin-top: 20px;
 }
 
 .price-month h3{
-    /* width: 40.29px; */
-    /* height: 25.14px; */
+    width: 40.29px;
+    height: 25.14px;
     /* margin-top: -0.4px; */
     font-family: inter;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 17.29px;
     line-height: 24.14px;
     color: rgba(63, 75, 102, 1);
 }
 
 .price-month p{
-    /* width: 29.23px; */
-    /* height: 11.36px; */
+    width: 29.23px;
+    height: 11.36px;
     /* margin-left: 39.31px;
     margin-top: 7.3px; */
     font-family: inter;
     font-weight: 400;
-    font-size: .5rem;
+    font-size: 8.36px;
     line-height: 11.36px;
     color: rgba(63, 75, 102, 1);
     margin-top: revert;
 }
 
 .paymants-month button{
-    /* width: 107.88px; */
-    /* height: 27.17px; */
+    width: 107.88px;
+    height: 27.17px;
     border-radius: 3.24px;
     padding-top: 8.11px;
     padding-right: 33.77px;
@@ -429,25 +405,25 @@ body{
     background-color: rgba(153, 102, 255, 1);
     border: none;
     font-family: inter;
-    /* font-weight: 400; */
+    font-weight: 400;
     font-size: 8.36px;
     line-height: 14.6px;
     color: rgba(255, 255, 255, 1);
 }
 
 .this-includes{
-    /* width: 107.88px; */
-    /* height: 105.44px; */
+    width: 107.88px;
+    height: 105.44px;
     padding-top: 11.36px;
     margin-top: 20px;
 }
 
 .this-includes > *:first-child {
-    /* width: 107.88px; */
-    /* height: 13px; */
+    width: 107.88px;
+    height: 13px;
     font-family: inter;
     font-weight: 400;
-    font-size: .5rem;
+    font-size: 8.23px;
     line-height: 12.98px;
     color: rgba(63, 75, 102, 1);
 }
@@ -463,51 +439,51 @@ body{
     margin-top: 10px;
 }
 
-.this-includes >  span:nth-of-type(1){
-    /* width: 107.88px; */
-    /* height: 30.82px; */
+.this-includes >  span:nth-of-type(1){ 
+    width: 107.88px;
+    height: 30.82px;
     font-family: inter;
     font-weight: 400;
-    font-size: .5rem;
+    font-size: 8.09px;
     line-height: 11.36px;
 }
 .this-includes > span:nth-of-type(2){
-    /* width: 107.88px; */
-    /* height: 19.47px; */
+    width: 107.88px;
+    height: 19.47px;
     font-family: inter;
     font-weight: 400;
-    font-size: .5rem;
+    font-size: 7.81px;
     line-height: 11.36px;
 }
 .this-includes > span:nth-of-type(3){
-  /* width: 107.88px; */
-  /* height: 30.82px; */
+  width: 107.88px;
+  height: 30.82px; 
   font-family: inter;
   font-weight: 400;
-  font-size: .5rem;
-  line-height: 11.36px;
+  font-size: 8.23px;
+  line-height: 11.36px; 
 }
 .this-includes > span:nth-of-type(4){
-    /* width: 92px; */
-    /* height: 12px; */
+    width: 92px;
+    height: 12px;
     font-family: inter;
     font-weight: 400;
-    font-size: .5rem;
+    font-size: 8.09px;
     line-height: 11.36px;
 }
 .this-includes > span:nth-of-type(5){
-    /* width: 74px; */
-    /* height: 12px; */
+    width: 74px;
+    height: 12px;
     font-family: inter;
     font-weight: 400;
-    font-size: .5rem;
+    font-size: 7.81px;
     line-height: 11.36px;
 }
 
 .quantum-container{
-    /* width: 438px; */
-    /* height: 420px; */
-    /* background-color: white; */
+    width: 438px;
+    height: 420px;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -522,17 +498,7 @@ body{
 
 
 
-.mtavar{
-    display: grid;
-    grid-template-columns: 2 1fr;
-    grid-template-rows: 2c 1fr;
-}
 
-.global-payments {
-    width: clamp(200px, 100vh, 500px);
-    /* margin-right: 120px; */
-    padding-left: 16px;
-}
 
 
 
